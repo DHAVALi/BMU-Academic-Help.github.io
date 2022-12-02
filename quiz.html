@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quick Quiz - Play</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMU ACADEMIC HELP</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <script src="https://kit.fontawesome.com/5ce0c7293f.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(4, 4, 4);
+    height: 8vh;
+}
+
+
+nav .logo {
+    width: 15vw;
+    margin-right: 15vh;
+}
+
+.nav-links {
+    flex-grow: 1;
+    text-align: right;
+
+}
+
+.nav-links ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 1.5%;
+    margin-right: 3%;
+
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "poppins";
+
+}
+
+.nav-links ul li::after {
+    content: "";
+    background-color: red;
+    display: block;
+    width: 0%;
+    height: 2px;
+    transition: 0.5s;
+    margin: auto;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+nav ul button{
+    background-color:#13653f; /* Green */
+  border: none;
+  color: white;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 14%;
+    
+}
+
+.button-grey{
+    background-color: #494646;;
+}
+
+.text-heading {
+    color: white;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    text-align: center;
+}
+
+.text-heading h1 {
+    font-size: 2em;
+    font-family: "montserrat";
+    letter-spacing: 0.1em;
+    font-weight: 700;
+
+}
+
+.text-heading p {
+    font-family: "poppins";
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    margin-bottom: 10%;
+    color: white;
+}
+
+.enroll_button {
+    color: white;
+    text-decoration: none;
+    /* position: relative; */
+    /* top: 50%; */
+    /* left: %; */
+    border: 1px solid white;
+    padding: 4%;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2em;
+    font-family: "montserrat";
+}
+
+.enroll_button:hover {
+    border: 1px solid red;
+    background-color: red;
+    transition: 1s;
+}
+
+</style>
+<body>
+    <section class="header">
+        <nav>
+           
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="prob.html">Back</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="prob.html">PRACTICE</a></li>
+                    <li><a href="about.HTML">ABOUT US</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-links">
+
+            </div>
+        </nav>
+    </section>
+    </body>
+    </html>
+    <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="hud">
+          <div id="hud-item">
+            <p class="hud-prefix">
+              Question
+            </p>
+            <h1 class="hud-main-text" id="questionCounter"></h1>
+          </div>
+          <div id="hud-item">
+            <p class="hud-prefix">
+              Score
+            </p>
+            <h1 class="hud-main-text" id="score">
+              0
+            </h1>
+          </div>
+        </div>
+        <h2 id="question">What is the answer to this questions?</h2>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">Choice 1</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>

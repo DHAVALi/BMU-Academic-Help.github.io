@@ -1,0 +1,46 @@
+{
+    "logo": "images/BMU ACADEMIC HELP.png",
+    "home": "HOME",
+    "practice": "PRACTICE",
+    "compiler": "QUIZ",
+    "about": "ABOUT US",
+    "text": [
+        "TRUSTED BY BMU STUDENTS",
+        "Our goal is to help every student who needs assistance in academics.",
+        "Get Enrolled",
+        "Every Students Matters",
+        "Knowledge matters not the result.",
+        "Good Interface and relevant topics."
+    ],
+    "name_course_data": [
+        {
+            "name": "Naman Khandelwal",
+            "course": "CSE Student"
+        },
+        {
+            "name": "Naman Khandelwal",
+            "course": "CSE Student"
+        },
+        {
+            "name": "Naman Khandelwal",
+            "course": "CSE Student"
+        }
+    ],
+    "know_us_text": [
+        "KNOW US",
+        "Follow Our Socials"
+    ],
+    "contact_text": [
+        "Get In Touch",
+        "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "67th Milestone, NH 48, Kapriwas, Haryana 122413 ",
+        "Delhi, India",
+        7838755555,
+        "bmlacademichelp@gmail.com",
+        "<i class=\"fas fa-map-marker-alt\"></i>",
+        "<i class=\"fas fa-mobile-alt\"></i>",
+        "<i class=\"far fa-envelope\"></i>",
+        "<i class=\"fas fa-address-book\"></i>",
+        "Contact"
+    ]
+}

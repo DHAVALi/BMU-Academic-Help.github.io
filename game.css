@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@500&family=Poppins:wght@400;500;600&family=Roboto:wght@100;400;500&display=swap');
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  background-color: rgb(4, 4, 4);
+  height: 8vh;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.nav-links {
+  flex-grow: 1;
+  text-align: left;
+  
+
+}
+
+.nav-links ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 1.5%;
+  margin-right: 3%;
+  font-size: 1.5em;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "poppins";
+
+}
+
+.nav-links ul li::after {
+  content: "";
+  background-color: red;
+  display: block;
+  width: 0%;
+  height: 2px;
+  transition: 0.5s;
+  margin: auto;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: rgb(211, 207, 207);
+  
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #56a5eb;
+  color: white;
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+  /* color: white; */
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+/* HUD */
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+
+#next{
+  background-color: #13653f;
+    border: none;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    /* border-radius: 14%; */
+    margin-left: 102vh;
+
+}

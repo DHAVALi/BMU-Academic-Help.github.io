@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@500&family=Poppins:wght@400;500;600&family=Roboto:wght@100;400;500&display=swap');
+
+body {
+    margin: 0;
+    background-color: #161515;
+    font-family: 'Segoe UI'
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    overflow-x: hidden;
+}
+
+.content-container {
+    width: 1360px;
+    height: 777px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f7e7ce;
+}
+
+
+
+#logo img {
+    width: 205px;
+
+
+}
+
+li a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    color: #040404;
+    text-decoration: none;
+}
+
+#header_id {
+    background-image: linear-gradient(50deg, #742e22 30%, #1f1919);
+    position: sticky;
+    top: 0%;
+    width: 1360px;
+    z-index: 500;
+    color: #f7e7ce;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid black;
+    height: 42px;
+}
+
+.nav_links {
+    list-style: none;
+
+}
+
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav_links li a {
+    transform: all 0.3s ease 0s;
+    color: #c6bbbb;
+}
+
+.nav_links li a:hover {
+    color: #f7e7ce;
+    text-decoration: 2px underline;
+}
+
+.login button {
+    padding: 9px 25px;
+    background-color: #f7e7ce;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    color: #903727;
+    font-weight: bold;
+}
+
+.login button:hover {
+    background-color: #eabb70;
+    color: #835046;
+    text-decoration: none;
+}
+
+
+.abt {
+    background-color: #161515;
+    font-family: 'Segoe UI';
+    color: white;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abt h1 {
+    background-image: linear-gradient(to right, #8A2387, #E94057, #F27121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.slogan {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    color: gray;
+}
+
+.slogan h6:hover {
+    color: white;
+}
+
+.row1 {
+    padding: 3vw;
+}
+
+.row1 h1 {
+    color: gray;
+}
+
+.row1 h2 {
+    color: #0a9265;
+}
+
+.row2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+.col1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_row {
+    display: flex;
+    padding: 3%;
+    justify-content: space-evenly;
+}
+
+.box_row:hover {
+    transition: .3s ease-in-out;
+    transform: scale(.9);
+}
+
+.box1 {
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1:hover {
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.col2 {
+    /* background-color: #8A2387; */
+    width: 45%;
+}
+
+.col2 img {
+    width: 100%;
+}
+
+.col2 img:hover {
+    transform: scale(1.3);
+    transition: .8s;
+}
+
+.content {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #04439f;
+    border-radius: 10px;
+}
+
+.left {
+    /* background-color: ; */
+    width: 45%;
+    padding: 2%;
+    color: white;
+    font-family: "Segoe UI";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    /* background-color: #8A2387; */
+    width: 45%;
+    padding: 1vw;
+}
+
+.right img {
+    height: 50vw;
+    width: 100%;
+}
+
+
+.quote_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    color: white;
+}
+
+.quote {
+    text-align: left;
+    font-size: 25px;
+    font-family: "montserrat";
+    font-weight: bold;
+}
+
+.image3 img {
+    width: 45%;
+    border-radius: 20px;
+    margin-left: 40%;
+
+}
+
+#contact {
+    background-color: #212529ec;
+    padding: 40px;
+}
+
+#contact_text{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 19px;
+margin-left: 102px;
+font-family: "poppins";
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+    font-family: "poppins";
+    margin-bottom: 2%;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+    font-family: "poppins";
+    
+    margin-bottom: 2%;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+    font-family: "poppins";
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+
+
